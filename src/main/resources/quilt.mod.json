@@ -2,19 +2,19 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "io.github.thepoultryman",
-		"id": "mod_name",
+		"id": "doublecrochet",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Double Crochet",
+			"description": "A mod that let's you crochet in Minecraft.",
 			"contributors": {
 				"Me!": "ThePoultryMan"
 			},
-			"icon": "assets/modid/icon.png"
+			"icon": "assets/doublecrochet/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.thepoultryman.modid.ModClass"
+			"init": "io.github.thepoultryman.doublecrochet.DoubleCrochet"
 		},
 		"depends": [
 			{
@@ -31,5 +31,5 @@
 			}
 		]
 	},
-	"mixin": "modid.mixins.json"
+	"mixin": "doublecrochet.mixins.json"
 }
